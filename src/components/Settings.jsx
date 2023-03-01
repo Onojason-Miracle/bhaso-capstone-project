@@ -6,8 +6,8 @@ function Settings (){
         <>
         <div className="settings-wrapper">
 
-            <div>
-            <i class="fa-regular fa-angle-left"></i>
+            <div className="settings-header">
+            <i class="fa-solid fa-angle-left setting"></i>
             <p className="settings-title">settings</p>
             </div>
            <div>
