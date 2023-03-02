@@ -835,7 +835,7 @@ width: 74px; */
   justify-content: space-between;
   width: 150px;
 }
-*/
+
 
 /* ipads, tablets */
 @media only screen and (max-width: 768px) and (min-width: 481px) {
