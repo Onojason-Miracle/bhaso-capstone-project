@@ -31,6 +31,8 @@ function Home() {
 
           <div className="playappstore">
             <div>
+
+              <a href="https://bhaso-capstone-project-up4j-oang219p4-onojason-miracle.vercel.app/" target={"_blank"} rel="noreferrer">
               <img
                 src={
                   "https://res.cloudinary.com/blackgirlmagic/image/upload/v1677590619/Bhaso-Capstone-Project/get-it-on-google-play-badge_rx9eg4.png"
@@ -38,16 +40,22 @@ function Home() {
                 alt="playstore logo"
                 className="playstore"
               />
+              </a>
+             
             </div>
 
             <div>
-              <img
+
+            <a href="https://bhaso-capstone-project-up4j-oang219p4-onojason-miracle.vercel.app/" target={"_blank"} rel="noreferrer">
+            <img
                 src={
                   "https://res.cloudinary.com/blackgirlmagic/image/upload/v1677590660/Bhaso-Capstone-Project/2560px-Download_on_the_App_Store_Badge.svg_xwunms.png"
                 }
                 alt="appstore logo"
                 className="appstore"
               />
+              </a>
+              
             </div>
           </div>
         </div>

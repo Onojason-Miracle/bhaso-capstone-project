@@ -69,6 +69,13 @@
   padding: 7px 15px;
   border-radius: 10px;
   margin-right: 16px;
+  color: var(--black);
+}
+
+#login-link:hover{
+  border: 3px solid #037b31;
+  color: var(--black);
+  box-shadow: 5px 4px #037b31;
 }
 
 #signup {
@@ -84,9 +91,17 @@
   border-radius: 10px;
 }
 
+#signup:hover{
+  box-shadow: 5px 4px #000;
+  border: 3px solid black;
+  border-radius: 10px;
+ 
+}
+
 .logsign {
   display: flex;
 }
+
 
 .wrapper {
   display: flex;
@@ -152,10 +167,21 @@
   margin-right: 12px;
 }
 
+.playstore:hover{
+  box-shadow: 5px 4px #037b31;
+  border-radius: 10px;
+ 
+}
+
 .appstore {
   height: 58.999994519803295px;
   width: 204.23075692825478px;
   object-fit: cover;
+}
+
+.appstore:hover{
+  box-shadow: 5px 4px #037b31;
+  border-radius: 10px;
 }
 
 .appdesign {
@@ -270,6 +296,9 @@
 .PRbtn:hover {
   color: var(--white);
   background-color: var(--black);
+  box-shadow: 5px 4px #fff;
+    border-radius: 10px;
+  
 }
 .PrHref {
   margin-top: 28.28px;
@@ -355,6 +384,7 @@
 .DAbtn:hover {
   color: var(--white);
   background-color: var(--black);
+  box-shadow: 5px 4px #037b31;
 }
 
 .CHwriteup {
@@ -498,6 +528,8 @@
   color: var(--white);
   margin-left: 15px;
 }
+
+
 
 .footernavigation {
   font-family: Poppins;
