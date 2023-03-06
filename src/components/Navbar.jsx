@@ -18,31 +18,31 @@ function Navbar() {
 
           <div className="capsNav">
             <div>
-              <Link className="link" id="homeLink" to="/settings">
+              <Link className="link" id="homeLink" to="/homepage">
                 Home
               </Link>
             </div>
 
             <div>
-              <Link className="link" to="/settings">
+              <Link className="link" to="/homepage">
                 About Us
               </Link>
             </div>
 
             <div>
-              <Link className="link" to="/settings">
+              <Link className="link" to="/homepage">
                 Our Services
               </Link>
             </div>
 
             <div>
-              <Link className="link" to="/settings">
+              <Link className="link" to="/homepage">
                 Our Projects
               </Link>
             </div>
 
             <div>
-              <Link className="link" to="/settings">
+              <Link className="link" to="/homepage">
                 Contact Us
               </Link>
             </div>
@@ -50,13 +50,13 @@ function Navbar() {
 
           <div className="logsign">
             <div className="login">
-              <Link className="link" id="login-link" to="/settings">
+              <Link className="link" id="login-link" to="/login">
                 Login
               </Link>
             </div>
 
             <div>
-              <Link className="link" id="signup" to="/settings">
+              <Link className="link" id="signup" to="/signup">
                 Signup
               </Link>
             </div>

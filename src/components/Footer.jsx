@@ -39,28 +39,28 @@ function Footer() {
             <div className="footerLinkDiv">
               <div>
                 <i class="fa-solid fa-chevron-right footerLinkIcon"></i>
-                <Link className="footerlink" to="/settings">
+                <Link className="footerlink" to="/homepage">
                   Homepage
                 </Link>
               </div>
 
               <div>
                 <i class="fa-solid fa-chevron-right footerLinkIcon"></i>
-                <Link className="footerlink" to="/settings">
+                <Link className="footerlink" to="/homepage">
                   About Us
                 </Link>
               </div>
 
               <div>
                 <i class="fa-solid fa-chevron-right footerLinkIcon"></i>
-                <Link className="footerlink" to="/settings">
+                <Link className="footerlink" to="/homepage">
                   Our Services
                 </Link>
               </div>
 
               <div>
                 <i class="fa-solid fa-chevron-right footerLinkIcon"></i>
-                <Link className="footerlink" to="/settings">
+                <Link className="footerlink" to="/homepage">
                   Our Projects
                 </Link>
               </div>

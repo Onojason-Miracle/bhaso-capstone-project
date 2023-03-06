@@ -19,43 +19,47 @@ function Home() {
           </div>
 
           <div className="bhasoHeader">
-            <h1>NEVER FORGET ANOTHER LOREM IPSUM DOLOR SIT</h1>
+            <h1>NEVER FORGET ANOTHER PILL AGAIN</h1>
           </div>
 
           <div className="bhasoHeroPtag">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              Our simple, free medication management app helps individuals stay
+              on track with their meds.
             </p>
           </div>
 
           <div className="playappstore">
             <div>
-
-              <a href="https://bhaso-capstone-project-up4j-oang219p4-onojason-miracle.vercel.app/" target={"_blank"} rel="noreferrer">
-              <img
-                src={
-                  "https://res.cloudinary.com/blackgirlmagic/image/upload/v1677590619/Bhaso-Capstone-Project/get-it-on-google-play-badge_rx9eg4.png"
-                }
-                alt="playstore logo"
-                className="playstore"
-              />
+              <a
+                href="https://bhaso-capstone-project-up4j-oang219p4-onojason-miracle.vercel.app/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <img
+                  src={
+                    "https://res.cloudinary.com/blackgirlmagic/image/upload/v1677590619/Bhaso-Capstone-Project/get-it-on-google-play-badge_rx9eg4.png"
+                  }
+                  alt="playstore logo"
+                  className="playstore"
+                />
               </a>
-             
             </div>
 
             <div>
-
-            <a href="https://bhaso-capstone-project-up4j-oang219p4-onojason-miracle.vercel.app/" target={"_blank"} rel="noreferrer">
-            <img
-                src={
-                  "https://res.cloudinary.com/blackgirlmagic/image/upload/v1677590660/Bhaso-Capstone-Project/2560px-Download_on_the_App_Store_Badge.svg_xwunms.png"
-                }
-                alt="appstore logo"
-                className="appstore"
-              />
+              <a
+                href="https://bhaso-capstone-project-up4j-oang219p4-onojason-miracle.vercel.app/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <img
+                  src={
+                    "https://res.cloudinary.com/blackgirlmagic/image/upload/v1677590660/Bhaso-Capstone-Project/2560px-Download_on_the_App_Store_Badge.svg_xwunms.png"
+                  }
+                  alt="appstore logo"
+                  className="appstore"
+                />
               </a>
-              
             </div>
           </div>
         </div>

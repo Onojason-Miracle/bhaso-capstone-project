@@ -72,7 +72,7 @@
   color: var(--black);
 }
 
-#login-link:hover{
+#login-link:hover {
   border: 3px solid #037b31;
   color: var(--black);
   box-shadow: 5px 4px #037b31;
@@ -91,17 +91,15 @@
   border-radius: 10px;
 }
 
-#signup:hover{
+#signup:hover {
   box-shadow: 5px 4px #000;
   border: 3px solid black;
   border-radius: 10px;
- 
 }
 
 .logsign {
   display: flex;
 }
-
 
 .wrapper {
   display: flex;
@@ -167,10 +165,9 @@
   margin-right: 12px;
 }
 
-.playstore:hover{
+.playstore:hover {
   box-shadow: 5px 4px #037b31;
   border-radius: 10px;
- 
 }
 
 .appstore {
@@ -179,7 +176,7 @@
   object-fit: cover;
 }
 
-.appstore:hover{
+.appstore:hover {
   box-shadow: 5px 4px #037b31;
   border-radius: 10px;
 }
@@ -297,8 +294,7 @@
   color: var(--white);
   background-color: var(--black);
   box-shadow: 5px 4px #fff;
-    border-radius: 10px;
-  
+  border-radius: 10px;
 }
 .PrHref {
   margin-top: 28.28px;
@@ -529,8 +525,6 @@
   margin-left: 15px;
 }
 
-
-
 .footernavigation {
   font-family: Poppins;
   font-size: 25px;
@@ -711,163 +705,127 @@
   left: 364px;
 }
 
-/* .reviewDivs {
-  border-bottom: 100px solid red;
-  border-top: 100px solid blue;
-  border-left: 100px solid yellow;
-  border-right: 100px solid orangered;
-  height: 0;
-  width: 100px;
-  border-radius: 30px 20%  36%  100%;
+/* SIGNUP STYLING */
 
-} */
-
-/* .reviewDivs:before {
-  content: '';
-  position: absolute;
-  top: 10%;
-  bottom: 10%;
-  right: -5%;
-  left: -5%;
-  background: inherit;
-  border-radius: 5% / 50%;
+.signup-wrapper {
+  background-image: linear-gradient(
+    to right,
+    rgb(225, 173, 1),
+    rgb(3, 123, 49)
+  );
 }
-.reviewDivs:after {
-  content: '';
-  position: absolute;
-  bottom: 0px;
-  right: -11px;
-    width: 130px;
-  height: 120px;
-  background: green;
-  border-radius: 20% / 150%;        
-} */
+.signup-div {
+  display: flex;
+  width: 900px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
-/* .header {
-  height: 896px;
-  width: 303px;
+.signup-form {
+  width: 500px;
+  background-color: var(--white);
+}
+
+.form {
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.signup-image {
+  width: 500px;
+  height: 600px;
+  background-image: linear-gradient(
+    to right,
+    rgb(3, 123, 49),
+    rgb(225, 173, 1)
+  );
+}
+
+.signup-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  width: 300px;
+  margin: auto;
+  height: 500px;
+}
+
+.password {
+  position: relative;
+}
+
+.password-eye {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.submit-btn {
   background-color: var(--green);
-}
-
-.home {
-  height: 52px;
-  width: 272px;
-  margin-left: 14px;
-  margin-top: 35.58px;
-  border-radius: 26px;
-  background-color: var(--white);
-  color: var(--green);
-  display: flex;
-  padding-top: 10px;
-  padding-left: 35px;
-}
-
-.home-text1 {
-  height: 18px;
-  width: 104px;
-  left: 32px;
-  margin-top: 2px;
-  font-family: poppins;
-  font-weight: 900px;
-  margin-left: 14.5px;
-  font-display: bold;
-  color: var(--green);
-  text-decoration: none;
-}
-
-.home:hover {
-  color: var(--green);
-}
-
-.home-text1:hover {
-  color: var(--green);
-}
-
-.home-anchor2 {
   color: var(--white);
-  display: flex;
-  padding-top: 10px;
-  padding-left: 50px;
 }
 
-.home-anchor2:hover {
-  background-color: var(--white);
-  color: var(--green);
-  height: 52px;
-  width: 272px;
-  margin-top: 10px;
-  border-radius: 26px;
-  margin-left: 14px;
+.submit-btn:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(3, 123, 49),
+    rgb(225, 173, 1)
+  );
 }
 
-.home2:hover {
-  margin-left: 0px;
-  color: var(--green);
-}
-
-.home-text {
-  height: 18px;
-  width: 104px;
-  left: 32px;
-  margin-top: 2px;
+.signup-link {
   font-family: poppins;
-  font-weight: 900px;
-  margin-left: 14.5px;
-  font-display: bold;
-  color: var(--white);
-  text-decoration: none;
+  color: var(--black);
+  margin-left: 5px;
 }
-
-.home-text:hover {
+.signup-link:hover {
   color: var(--green);
 }
 
-.home-icon {
-  height: 16.666667938232422px;
-  width: 15px;
-  left: 2.5px;
-  margin-top: 6px;
-  border-radius: 0px;
+.login-form {
+  width: 500px;
+  background-color: var(--white);
+  margin: auto;
 }
 
-.underline {
-  border: 1px solid white;
-  height: 1px;
-  width: 272px;
-  margin-left: 14px;
-  margin-top: 130px;
-  border-radius: 0px;
-  margin-bottom: 25.25px;
-}
+/* NOPAGE */
 
-/* settings page */
-.settings-wrapper {
-  height: 800px;
-  width: 303px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
-  border: 2px solid black;
-}
-
-.setting-title {
-  /* height: 30px;
-width: 74px; */
-  margin-left: 137px;
-  border-radius: nullpx;
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 30px;
-}
-
-.settings-header {
+.noPage-wrapper {
+  background-image: linear-gradient(
+    to right,
+    rgb(225, 173, 1),
+    rgb(3, 123, 49)
+  );
+  height: 700px;
   display: flex;
-  margin-top: 61px;
-  justify-content: space-between;
-  width: 150px;
+  align-items: center;
+  justify-content: center;
 }
 
+.noPage-link {
+  margin-left: 5px;
+  color: black;
+  margin-right: 5px;
+}
+
+.noPage-link:hover {
+  margin-left: 5px;
+  color: white;
+  margin-right: 5px;
+}
+
+.noPage-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 /* ipads, tablets */
 @media only screen and (max-width: 768px) and (min-width: 481px) {

@@ -1,10 +1,11 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Settings from "./components/Settings";
-import Layout from "./components/Layout";
 import Home from "./components/Home";
 import "./App.css";
 import "./mediaq.css";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
+import NoPage from "./components/NoPage";
 
 function App() {
   return (
@@ -12,12 +13,14 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="settings" element={<Settings />} />
 
-          <Route path="layout" element={<Layout />} />
+          <Route path="homepage" element={<Home />} />
 
-          {/* 
-        <Route path="*" element={<NoPage />} /> */}
+          <Route path="login" element={<Login />} />
+
+          <Route path="signup" element={<Signup />} />
+
+          <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
     </>
