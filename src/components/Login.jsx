@@ -4,6 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 import "../mediaq.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import "../responsive.css";
 
 function Login() {
   const [password, setPassword] = useState("password");

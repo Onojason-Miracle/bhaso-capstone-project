@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import "./App.css";
 import "./mediaq.css";
+import "../responsive.css";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import NoPage from "./components/NoPage";
