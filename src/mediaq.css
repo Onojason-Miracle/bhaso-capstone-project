@@ -16,21 +16,20 @@
   width: 1400px;
   margin: auto;
   display: flex;
- justify-content: space-between;
+  justify-content: space-between;
   padding-top: 20px;
 }
 
-#hamburger{
+#hamburger {
   display: none;
 }
 
 .logo {
   height: 63.42307662963867px;
   width: 222.8378448486328px;
-
 }
 
-#responsive-nav{
+#responsive-nav {
   display: flex;
   justify-content: space-between;
 }
@@ -38,15 +37,13 @@
 .capsNav {
   display: flex;
   justify-content: space-evenly;
- width: 800px;
+  width: 800px;
   text-decoration: none;
 }
 
-.logsign{
+.logsign {
   margin-left: 120px;
 }
-
-
 
 .link {
   text-decoration: none;

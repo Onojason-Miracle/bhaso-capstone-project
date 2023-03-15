@@ -6,20 +6,18 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 function Login() {
-    const [password, setPassword] = useState("password");
-    const [passwordInput, setPasswordInput] = useState("");
-    const handlePasswordChange =(evnt)=>{
-        setPasswordInput(evnt.target.value);
+  const [password, setPassword] = useState("password");
+  const [passwordInput, setPasswordInput] = useState("");
+  const handlePasswordChange = (evnt) => {
+    setPasswordInput(evnt.target.value);
+  };
+  const togglePassword = () => {
+    if (password === "password") {
+      setPassword("text");
+      return;
     }
-    const togglePassword =()=>{
-      if(password==="password")
-      {
-       setPassword("text")
-       return;
-      }
-      setPassword("password")
-    }
-
+    setPassword("password");
+  };
 
   return (
     <>
@@ -42,11 +40,7 @@ function Login() {
               </p>
 
               <p className="form-group password form-floating">
-                <button onClick={togglePassword}>
-                { password==="password"?  <i class="fa-solid fa-eye password-eye " ></i> :<i class="fa-solid fa-eye-slash password-eye"></i> }
-
-                </button>
-               
+                <i class="fa-solid fa-eye password-eye "></i>
 
                 <input
                   type={"password"}
@@ -54,8 +48,6 @@ function Login() {
                   placeholder="password "
                   required
                   className="form-control"
-                  value={passwordInput}
-                  onChange={handlePasswordChange}
                 />
                 <label className="form-label">Password :</label>
               </p>
