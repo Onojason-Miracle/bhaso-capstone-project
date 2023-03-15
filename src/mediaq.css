@@ -16,28 +16,38 @@
   width: 1400px;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+ justify-content: space-between;
   padding-top: 20px;
+}
+
+#hamburger{
+  display: none;
 }
 
 .logo {
   height: 63.42307662963867px;
   width: 222.8378448486328px;
-  left: 24px;
-  top: 16px;
-  border-radius: 0px;
+
+}
+
+#responsive-nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .capsNav {
   display: flex;
   justify-content: space-evenly;
-  width: 900px;
+ width: 800px;
   text-decoration: none;
 }
 
-.login {
-  margin-left: 20px;
+.logsign{
+  margin-left: 10px;
 }
+
+
 
 .link {
   text-decoration: none;
