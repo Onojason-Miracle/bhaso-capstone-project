@@ -33,7 +33,6 @@
 #responsive-nav{
   display: flex;
   justify-content: space-between;
-  width: 100%;
 }
 
 .capsNav {
@@ -44,7 +43,7 @@
 }
 
 .logsign{
-  margin-left: 10px;
+  margin-left: 120px;
 }
 
 

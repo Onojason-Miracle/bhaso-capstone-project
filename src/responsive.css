@@ -24,6 +24,17 @@
     transform: translateY(-50%);
   }
 
+  .link {
+    text-decoration: none;
+    color: var(--grey);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
   #responsive-nav {
     display: flex;
     flex-direction: column;
