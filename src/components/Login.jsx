@@ -1,10 +1,26 @@
 import React from "react";
+import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 import "../mediaq.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 function Login() {
+    const [password, setPassword] = useState("password");
+    const [passwordInput, setPasswordInput] = useState("");
+    const handlePasswordChange =(evnt)=>{
+        setPasswordInput(evnt.target.value);
+    }
+    const togglePassword =()=>{
+      if(password==="password")
+      {
+       setPassword("text")
+       return;
+      }
+      setPassword("password")
+    }
+
+
   return (
     <>
       <Navbar />
@@ -26,7 +42,11 @@ function Login() {
               </p>
 
               <p className="form-group password form-floating">
-                <i class="fa-solid fa-eye password-eye "></i>
+                <button onClick={togglePassword}>
+                { password==="password"?  <i class="fa-solid fa-eye password-eye " ></i> :<i class="fa-solid fa-eye-slash password-eye"></i> }
+
+                </button>
+               
 
                 <input
                   type={"password"}
@@ -34,6 +54,8 @@ function Login() {
                   placeholder="password "
                   required
                   className="form-control"
+                  value={passwordInput}
+                  onChange={handlePasswordChange}
                 />
                 <label className="form-label">Password :</label>
               </p>

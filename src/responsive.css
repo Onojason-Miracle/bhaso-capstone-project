@@ -1,0 +1,315 @@
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+  .heroSection {
+    max-width: 10000px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-direction: column;
+  }
+  .logo {
+    margin-left: 10px;
+  }
+
+  #hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    margin-top: 33px;
+    right: 25px;
+    transform: translateY(-50%);
+  }
+
+  #responsive-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    display: none;
+  }
+
+  .capsNav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    text-decoration: none;
+    flex-direction: column;
+  }
+
+  .logsign {
+    display: flex;
+    width: 400px;
+  }
+
+  .logsign {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .wrapper {
+    display: flex;
+    max-width: 10000px;
+    justify-content: space-between;
+    position: relative;
+    overflow: visible;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 85%;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .bhasoWriteupDiv {
+    margin-top: 30px;
+  }
+
+  .bhasopill {
+    height: 28px;
+    width: 100%;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--grey);
+  }
+
+  .bhasoHeader {
+    /* height: 288px; */
+    width: 100%;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--grey);
+    margin-top: 44px;
+  }
+
+  .bhasoHeroPtag {
+    height: 90px;
+    width: 100%;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--grey);
+    margin-top: 24px;
+  }
+
+  .playappstore {
+    display: flex;
+    margin-top: 52px;
+    flex-direction: column;
+  }
+
+  .playstore {
+    height: 68.999994519803295px;
+    width: 304.23075692825478px;
+    object-fit: cover;
+    margin-right: 12px;
+  }
+
+  .appstore {
+    height: 68.999994519803295px;
+    width: 304.23075692825478px;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+
+  .wrapper-image {
+    display: none;
+  }
+
+  .pillreminder {
+    background-color: var(--green);
+    padding-bottom: 20px;
+    position: relative;
+    overflow: visible;
+    margin-top: 30px;
+  }
+
+  .PRdiv {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    width: 85%;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .PRappDiv {
+    height: 672.275390625px;
+    width: 80%;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 4px #666666;
+    margin: auto;
+  }
+
+  .PRapp {
+    height: 661.275390625px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .PRwriteup {
+    width: 100%;
+  }
+  .PRwriteupH1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 12px;
+  }
+
+  .PRbtn {
+    height: 172px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 15px 60px 15px 60px;
+  }
+
+  .PrHref {
+    margin-top: 28.28px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .DaWrapper {
+    background-color: var(--lightblue);
+    height: 700px;
+  }
+
+  .DaDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .DaDiv2 {
+    width: 100%;
+  }
+
+  .DAwriteupH1 {
+ 
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+  }
+  .DAappDiv {
+    height: 261.275390625px;
+    width: 90%;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 00px;
+    margin-top: 54.62px;
+    box-shadow: 5px 4px #666666;
+  }
+  
+  .DAapp {
+    height: 261.275390625px;
+    width: 100%;
+    margin-top: 0;
+    object-fit: cover;
+  }
+
+  .DAbtn {
+    width: 100%;
+    border-radius: 12px;
+    padding: 15px 60px 15px 60px;
+  }
+
+  .CHwriteup {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  #ChatHeader {
+  
+  }
+
+  .reviewWrapper {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .reviewHeading {
+    width: 100%;
+  }
+
+  .reviewDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+
+  .reviewDivs {
+    height: 149.48243713378906px;
+    width: 70%;
+
+    transform: rotate(0deg);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .reviewsH1 {
+    width: 100%;
+  }
+
+  .reviewsptag {
+    width: 100%;
+  }
+
+  .footerWrapper {
+    height: fit-content;
+    margin-top: 56px;
+  
+    background-color: var(--green);
+  }
+  
+  .footerWriteup {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .footerinfo{
+    width: 100%;
+    
+  }
+
+  .icons{
+    margin-top: 50px;
+  }
+
+  .footerH4, .footernavigation, .footerContact{
+    text-decoration: underline;
+  }
+
+  .afterUnderline {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+}

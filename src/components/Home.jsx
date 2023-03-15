@@ -64,7 +64,7 @@ function Home() {
           </div>
         </div>
 
-        <div>
+        <div className="wrapper-image">
           <svg
             width="753"
             height="735"

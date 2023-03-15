@@ -12,7 +12,7 @@ function Chatdoc() {
                 </div>
                 <div className="CHwriteup">
                   <div>
-                    <h1 className="PRwriteupH1">CHAT WITH BHASO</h1>
+                    <h1 className="PRwriteupH1" id="ChatHeader">CHAT WITH BHASO</h1>
                   </div>
 
                   <div className="pdivsWrapper">
