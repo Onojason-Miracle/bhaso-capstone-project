@@ -1,5 +1,6 @@
 import React from "react";
-import "../mediaq.css";
+// import "../css/responsive.css";
+// import "../css/mediaq.css";
 
 function Settings (){
     return(

@@ -1,9 +1,7 @@
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
-import "../mediaq.css";
+import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import "../responsive.css";
 
 function Signup() {
   return (

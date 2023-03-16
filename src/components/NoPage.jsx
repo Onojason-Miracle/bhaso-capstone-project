@@ -1,7 +1,5 @@
 import React from "react";
-import "../mediaq.css";
-import "../responsive.css";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function NoPage() {
   return (

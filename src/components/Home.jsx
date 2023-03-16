@@ -5,8 +5,6 @@ import Dappointment from "./Dappointment";
 import Chatdoc from "./Chatdoc";
 import Reviews from "./Reviews";
 import Footer from "./Footer";
-import "../mediaq.css";
-import "../responsive.css";
 
 function Home() {
   return (

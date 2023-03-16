@@ -1,9 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Outlet, Link } from "react-router-dom";
-import "../mediaq.css";
-import "../responsive.css";
-import Nav from "../bhaso";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   // const [isNavExpanded, setIsNavExpanded] = useState(false);

@@ -1,6 +1,4 @@
 import React from "react";
-import "../mediaq.css";
-import "../responsive.css";
 
 function Pillreminder() {
   return (
