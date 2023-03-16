@@ -22,7 +22,7 @@ function Login() {
     <>
       <Navbar />
 
-      <div className="signup-wrapper">
+      <div className="signup-wrapper" id="signup-wrapper">
         <div className="signup-div">
           <div className="login-form">
             <form action="/action_page.jsx" method="post" className="form">

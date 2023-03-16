@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+
 function Navbar() {
   // const [isNavExpanded, setIsNavExpanded] = useState(false);
 
@@ -23,18 +24,20 @@ function Navbar() {
             id="hamburger"
             onClick={() => {
               let x = document.getElementById("responsive-nav");
-              let games = document.getElementById("games");
+
+              let signupdiv = document.getElementById("signup-wrapper");
               let topnav = document.getElementById("heroSection");
 
               if (x.style.display === "block") {
                 x.style.display = "none";
-                games.style.marginTop = 0;
+                signupdiv.style.marginTop = 0;
               } else {
                 x.style.display = "block";
 
                 x.style.width = "80%";
                 x.style.margin = "auto";
                 topnav.style.display = "flex";
+                signupdiv.style.marginTop = "20px";
               }
             }}
           >

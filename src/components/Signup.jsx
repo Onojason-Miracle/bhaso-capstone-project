@@ -7,7 +7,7 @@ function Signup() {
   return (
     <>
       <Navbar />
-      <div className="signup-wrapper">
+      <div className="signup-wrapper" id="signup-wrapper" >
         <div className="signup-div">
           <div className="signup-image">
             <div className="signup-header">
